@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDBM Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Satisfy&display=swap" rel="stylesheet">  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>WatchLive</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#passes">My Passes</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+        </ul>
+        <button class="login-btn">Login</button>
+      </nav>
+      <div class="hero-section">
+        <div class="overlay">
+          <div class="branding">
+            <h1>WatchLive</h1>
+            <p>Your Gateway to Entertainment</p>
+          </div>
+          <input
+            type="text"
+            id="searchBar"
+            placeholder="Search for movies, shows..."
+          />
+          <button id="exploreBtn">Explore Now</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- container for movies -->
+    <main id="moviesContainer"></main>
+
+    <footer>
+      <p>&copy; 2025 Movie Streaming Platform Clone</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
