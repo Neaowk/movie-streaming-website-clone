@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDBM Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:wght@100..900&family=Marck+Script&family=Montserrat:wght@100..900&family=Nunito:wght@200..1000&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <a href="index.html" class="logo"><h1>WatchLive</h1></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#passes">My Passes</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+        </ul>
+        <button class="login-btn">Login</button>
+      </nav>
+      <div class="hero-section">
+        <div class="overlay">
+          <div class="branding">
+            <h1>WatchLive</h1>
+            <p>Your Gateway to Entertainment</p>
+          </div>
+          <div class="search-input">
+            <div class="input-field">
+              <input
+                type="text"
+                id="searchBar"
+                placeholder="Search for movies, shows..."
+              />
+              <div id="suggestionList" class="suggestion-list"></div>
+              <!-- Suggestion list -->
+            </div>
+            <button id="exploreBtn">Explore Now</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="moviesContainer"></main>
+
+    <footer>
+      <p>&copy; 2025 Movie Streaming Platform Clone</p>
+      <a href="https://www.x.com/" target="_blank"><img src="assets/x.svg" alt="x.com_logo"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="assets/Facebook.svg" alt="meta/facebook_logo"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="assets/Instagram.svg" alt="instagram_logo"></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
